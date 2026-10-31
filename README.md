@@ -1,6 +1,6 @@
 # script-news
 
-Script dyal l-akhbar, kaykhdem local. Had l-repo kaytsejjel automatiquement 3la GitHub kol 5 d9aye9 bach nkhdem mn 2 PC.
+Script dyal l-akhbar, kaykhdem local. Had l-repo kaytsejjel 3la GitHub bach nkhdem mn 2 PC w n3rf fin wselt.
 
 Chouf [PROGRESS.md](PROGRESS.md) bach t3rf fin wselti.
 
@@ -18,16 +18,10 @@ Chouf [PROGRESS.md](PROGRESS.md) bach t3rf fin wselti.
    git config user.name "talyahamza"
    git config user.email "talyahamza@gmail.com"
    ```
-4. Lanci t-tâche dyal sync:
-   ```
-   powershell -ExecutionPolicy Bypass -File .\install-sync-task.ps1
-   ```
 
-## Fichiers
+## Kifach nkhdem
 
-- `sync.ps1`: commit → pull → push. Ila tra conflict kayw9ef w kaykteb f `sync.log`.
-- `install-sync-task.ps1`: kaydir tâche Windows katlanci `sync.ps1` kol 5 d9aye9.
+- **Mlli tbda**: `git pull` (wla goul l-Claude), w 9ra `PROGRESS.md`.
+- **Mlli tsali**: update `PROGRESS.md` w lanci `.\sync.ps1` (Claude kaydirha f l-akhir).
 
-## Nasi7a
-
-Qbl ma tbeddel PC, tsenna 5 d9aye9 wla lanci `.\sync.ps1` b yeddik.
+`sync.ps1`: commit → pull → push. Ila tra conflict kayw9ef w kaykteb f `sync.log`.

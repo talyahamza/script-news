@@ -1,15 +1,15 @@
 # Script News - Fin wselt
 
 ## Akhir mra (2026-10-31)
-- Tsawb l-repo 3la GitHub w sync automatique kol 5 d9aye9.
+- Tsawb l-repo 3la GitHub. Sync kaydar f l-akhir dyal kol khedma (machi automatique).
 
 ## Tsala
 - [x] Git + GitHub (private)
-- [x] Sync automatique (`sync.ps1` + tâche Windows)
+- [x] `sync.ps1` + `CLAUDE.md` (qawa3id: pull f l-bdya, update PROGRESS + push f l-akhir)
 
 ## B9a
 - [ ] Nchr7 l-fikra dyal s-script dyal l-akhbar
 - [ ] Nbdaw nktbo s-script
 
 ## Notes
-- Qbl ma tbeddel PC, tsenna chi 5 d9aye9 (wla lanci `sync.ps1` b yeddik) bach ytsejjel kolchi.
+- Qbl ma tsedd PC, t2kked bli `sync.ps1` tlanca bach ytsejjel kolchi.
